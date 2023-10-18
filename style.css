@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+    --dark-one: #333;
+    --dark-two: #7a7a7a;
+    --main-color: #784cfb;
+    --light-one: #fff;
+    --light-two: #f9fafb;
+    --light-three: #f6f7fb;
+  }
+  body,
+  button,
+  input,
+  textarea {
+    font-family: "Poppins", sans-serif;
+  }
+  
+a{
+   
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    
+    padding: 0 4rem;
+    margin: 0 auto;
+    background-color: var(--dark-two);
+  }
+
+  header {
+    width: 100%;
+    background-color: var(--light-three);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  nav {
+    width: 100%;
+    position: relative;
+    z-index: 50;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links ul {
+    display: flex;
+  }
+  
+   a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.9rem 1.2rem;
+    color: var(--dark-one);
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1;
+    transition: 0.3s;
+  }
+  
+  a.active {
+    background-color: var(--main-color);
+    color: var(--light-one);
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 0.9rem 2.1rem;
+    margin-left: 1rem;
+  }
+  
+  .links a:hover {
+    color: var(--main-color);
+  }
+  
+  .links a.active:hover {
+    color: var(--light-one);
+    background-color: #6b44e0;
+  }
+  .novels{
+    display: inline;
+    justify-content: center;
+    max-width: 60%;
+    line-height: 25px;
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    
+}
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+button{
+  background-color: var(--dark-two);
+  border-radius: 20px;
+  width: 40px;
+}
+button:hover{
+    background-color: var(--dark-one);
+}
+footer {
+    background-color:var(--dark-one); 
+    color: var(--light-two); 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer{
+    display: inline; 
+    margin: 0 15px;
+    
+}
+
+.copyright{
+    margin-top: 10px;
+    font-size: 14px;
+}
+ 
+.flinks{
+    text-decoration: none; 
+    color: var(--light-one);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 2rem; 
+    }
+    nav .container {
+        height: 4rem; 
+    }
+    .logo {
+        width: 90px; 
+    }
+}

@@ -1,0 +1,158 @@
+{
+   "books":[
+     {"book1":1,
+      "title": "The Catcher in the Rye",
+      "price": 12.99,
+      "pages": 224,
+      "image": "https://example.com/book1-cover.jpg",
+      "description": "A classic novel by J.D. Salinger, it follows the story of Holden Caulfield, a disenchanted teenager navigating the challenges of growing up in post-war America."
+    },
+     {
+      "book2":2,
+      "title": "To Kill a Mockingbird",
+      "price": 14.95,
+      "pages": 336,
+      "image": "https://example.com/book2-cover.jpg",
+      "description": "Harper Lee's Pulitzer Prize-winning novel tells the tale of racial injustice and moral growth in the American South through the eyes of young Scout Finch."
+    },
+     {
+      "book3":3,
+      "title": "1984",
+      "price": 10.99,
+      "pages": 328,
+      "image": "https://example.com/book3-cover.jpg",
+      "description": "George Orwell's dystopian masterpiece explores a totalitarian society where individuality is suppressed and the power of the state is absolute."
+    },
+     {
+      "book4":4,
+      "title": "The Great Gatsby",
+      "price": 9.99,
+      "pages": 180,
+      "image": "https://example.com/book4-cover.jpg",
+      "description": "F. Scott Fitzgerald's novel paints a vivid portrait of the Jazz Age, filled with themes of wealth, ambition, and unrequited love."
+    },
+     {
+      "book5":5,
+      "title": "Pride and Prejudice",
+      "price": 11.75,
+      "pages": 356,
+      "image": "https://example.com/book5-cover.jpg",
+      "description": "Jane Austen's classic work explores themes of love, class, and manners through the lively interactions of the Bennet family."
+    },
+     {
+      "book6":6,
+      "title": "Moby-Dick",
+      "price": 16.50,
+      "pages": 672,
+      "image": "https://example.com/book6-cover.jpg",
+      "description": "Herman Melville's epic novel is an adventurous journey as Captain Ahab seeks revenge on the white whale, Moby-Dick."
+    },
+     {
+      "book7":7,
+      "title": "The Lord of the Rings",
+      "price": 24.99,
+      "pages": 1178,
+      "image": "https://example.com/book7-cover.jpg",
+      "description": "J.R.R. Tolkien's fantasy trilogy follows the quest to destroy the One Ring and save Middle-earth from the dark lord Sauron."
+    },
+     {
+      "book8":8,
+      "title": "War and Peace",
+      "price": 19.75,
+      "pages": 1225,
+      "image": "https://example.com/book8-cover.jpg",
+      "description": "Leo Tolstoy's masterpiece explores the lives of Russian aristocrats during the Napoleonic era, combining history and personal drama."
+    },
+    { 
+      "book9":9,
+      "title": "The Hobbit",
+      "price": 9.99,
+      "pages": 310,
+      "image": "https://example.com/book9-cover.jpg",
+      "description": "J.R.R. Tolkien's enchanting tale of Bilbo Baggins, a hobbit who embarks on a grand adventure filled with dwarves and dragons."
+    },
+     {
+      "book10":10,
+      "title": "The Hunger Games",
+      "price": 8.99,
+      "pages": 374,
+      "image": "https://example.com/book10-cover.jpg",
+      "description": "Suzanne Collins' dystopian trilogy follows Katniss Everdeen as she competes in a brutal televised competition in a future society."
+    },
+     {
+      "book11":11,
+      "title": "The Da Vinci Code",
+      "price": 11.25,
+      "pages": 454,
+      "image": "https://example.com/book11-cover.jpg",
+      "description": "Dan Brown's thriller features Robert Langdon as he unravels a complex web of secrets and conspiracies involving art and religion."
+    },
+     {
+      "book12":12,
+      "title": "The Alchemist",
+      "price": 10.50,
+      "pages": 208,
+      "image": "https://example.com/book12-cover.jpg",
+      "description": "Paulo Coelho's philosophical novel tells the story of Santiago, a shepherd boy, as he embarks on a journey to find his personal legend."
+    },
+    {
+      "book13": 13,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "price": 15.99,
+      "pages": 309,
+      "image": "https://example.com/book13-cover.jpg",
+      "description": "J.K. Rowling's fantasy novel introduces the world of Hogwarts and the young wizard Harry Potter as he discovers his magical abilities."
+    },
+     {
+      "book14":14,
+      "title": "The Shining",
+      "price": 13.75,
+      "pages": 447,
+      "image": "https://example.com/book14-cover.jpg",
+      "description": "Stephen King's horror novel follows the Torrance family as they stay in the haunted Overlook Hotel, facing supernatural horrors."
+    },
+     {
+      "book15":15,
+      "title": "The Chronicles of Narnia",
+      "price": 22.50,
+      "pages": 768,
+      "image": "https://example.com/book15-cover.jpg",
+      "description": "C.S. Lewis' classic series takes readers to the magical land of Narnia and the adventures of its young heroes."
+    },
+     {
+      "book16":16,
+      "title": "Brave New World",
+      "price": 11.99,
+      "pages": 288,
+      "image": "https://example.com/book16-cover.jpg",
+      "description": "Aldous Huxley's dystopian novel envisions a futuristic society where individuality is sacrificed for stability and happiness."
+    },
+     {
+      "book17":17,
+      "title": "The Road",
+      "price": 9.25,
+      "pages": 287,
+      "image": "https://example.com/book17-cover.jpg",
+      "description": "Cormac McCarthy's post-apocalyptic tale follows a father and son as they struggle for survival in a desolate world."
+    },
+     {
+      "book18":18,
+      "title": "Gone with the Wind",
+      "price": 14.99,
+      "pages": 1037,
+      "image": "https://example.com/book18-cover.jpg",
+      "description": "Margaret Mitchell's epic novel is a love story set against the backdrop of the American Civil War and its aftermath."
+    },
+     {
+      "book19":19,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "price": 7.99,
+      "pages": 193,
+      "image": "https://example.com/book19-cover.jpg",
+      "description": "Douglas Adams' comedic"
+    }
+   ]
+}
+  
+  
+  
