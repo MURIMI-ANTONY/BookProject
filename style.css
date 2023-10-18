@@ -158,4 +158,7 @@ footer {
     .logo {
         width: 90px; 
     }
+    .grid-container{
+        display: contents;
+    }
 }
